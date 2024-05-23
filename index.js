@@ -1,3 +1,8 @@
+console.log("hello world");
+
+const { chunkArray, findUniqueElements } = require("./modules/arrayUtils.js");
+const { deepCloneObject, mergeObjects } = require("./modules/objectUtils.js");
+
 // Problem 1: Chunking an Array
 const array1 = [1, 2, 3, 4, 5, 6, 7, 8];
 const chunkedArray = chunkArray(array1, 2);
